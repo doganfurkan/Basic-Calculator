@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
       inputField.value = val;
       return;
     }
-
     inputField.value += val;
+    scrollInput();
   }
 
   function clearInput() {
@@ -111,3 +111,7 @@ document.querySelectorAll(".buttons button").forEach((button) => {
     e.target.style.borderImage = `radial-gradient(50% 75% at ${x}px ${y}px , var(--primary),transparent ) 1 / 2px / 0px stretch `;
   })
 })
+
+function scrollInput(){
+  inputField.scrollLeft = inputField.scrollWidth;
+}
