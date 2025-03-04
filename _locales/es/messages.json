@@ -1,0 +1,54 @@
+{  
+  "extensionName": {  
+    "message": "Basic Calculator",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Basic Calculator es una extensión de calculadora simple para tu navegador",  
+    "description": "The description of the extension"  
+  },    
+  "about": {  
+    "message": "Acerca de",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "Atajos",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Puedes usar los siguientes atajos: \n - Enter: Calcular el resultado \n - C: Borrar la entrada \n - Retroceso: Eliminar el último carácter \n - Números 0-9: Ingresar el número \n - Operadores +, -, *, /: Ingresar el operador \n - '.' o ',': Ingresar el punto decimal",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "¿Tienes alguna sugerencia o encontraste un error?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Reporta problemas y sugiere mejoras aquí:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "¿Quieres ponerte en contacto con el desarrollador?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Puedes ponerte en contacto con el desarrollador a través del siguiente correo electrónico:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "¿Te ha gustado la extensión?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "¿Estás disfrutando de Volumen Básico? ¡Apóyanos dejando una reseña de 5 estrellas y compartiéndola con tus amigos!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Seleccionar idioma",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Idioma del navegador",  
+    "description": "The default language"  
+  }  
+}  
