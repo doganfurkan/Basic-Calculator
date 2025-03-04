@@ -1,0 +1,54 @@
+{  
+  "extensionName": {  
+    "message": "الآلة الحاسبة",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "الآلة الحاسبة هي إضافة حاسبة بسيطة لمتصفحك",  
+    "description": "The description of the extension"  
+  },  
+  "about": {  
+    "message": "حول",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "الاختصارات",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "يمكنك استخدام الاختصارات التالية: \n - Enter: احسب النتيجة \n - Del, Delete: مسح الإدخال \n - Backspace: حذف الحرف الأخير \n - الأرقام 0-9: إدخال الرقم \n - العمليات +, -, *, /: إدخال العملية \n - '.' أو ',': إدخال العلامة العشرية",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "هل لديك اقتراح أو وجدت خطأ؟",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "قم بالإبلاغ عن المشاكل واقترح التحسينات هنا:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "هل تريد التواصل مع المطور؟",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "يمكنك التواصل مع المطور عبر عنوان البريد الإلكتروني التالي:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "هل أعجبتك الإضافة؟",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "هل تستمتع بالصوت الأساسي؟ دعمنا من خلال إعطاء تقييم 5 نجوم ومشاركته مع أصدقائك!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "اختيار اللغة",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "لغة المتصفح",  
+    "description": "The default language"  
+  }  
+}  
