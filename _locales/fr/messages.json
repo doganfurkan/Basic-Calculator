@@ -1,0 +1,54 @@
+{  
+  "extensionName": {  
+    "message": "Basic Calculator",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Basic Calculator est une extension de calculatrice simple pour votre navigateur",  
+    "description": "The description of the extension"  
+  },   
+  "about": {  
+    "message": "À propos",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "Raccourcis",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Vous pouvez utiliser les raccourcis suivants : \n - Entrée : Calculer le résultat \n - C : Effacer l'entrée \n - Retour arrière : Supprimer le dernier caractère \n - Chiffres 0-9 : Entrer le chiffre \n - Opérateurs +, -, *, / : Entrer l'opérateur \n - '.' ou ',': Entrer le point décimal",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "Vous avez une suggestion ou avez trouvé un bug ?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Signalez les problèmes et suggérez des améliorations ici :",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "Vous souhaitez contacter le développeur ?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Vous pouvez contacter le développeur à l'adresse e-mail suivante :",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "Vous aimez l'extension ?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "Vous aimez Volume Basique ? Soutenez-nous en laissant un avis 5 étoiles et en le partageant avec vos amis !",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Sélectionner la langue",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Langue du navigateur",  
+    "description": "The default language"  
+  }  
+}  
