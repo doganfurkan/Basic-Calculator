@@ -1,0 +1,54 @@
+{  
+  "extensionName": {  
+    "message": "основной калькулятор",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "Основной калькулятор — это простое расширение калькулятора для вашего браузера",  
+    "description": "The description of the extension"  
+  },  
+  "about": {  
+    "message": "О программе",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "Ярлыки",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "Вы можете использовать следующие ярлыки: \n - Ввод: Рассчитать результат \n - Удалить, Del: Очистить ввод \n - Backspace: Удалить последний символ \n - Цифры 0-9: Введите число \n - Операторы +, -, *, /: Введите оператор \n - '.' или ',': Введите десятичную точку",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "Есть предложение или нашли ошибку?",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "Сообщите о проблемах и предложите улучшения здесь:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "Хотите связаться с разработчиком?",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "Вы можете связаться с разработчиком по следующему адресу электронной почты:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "Вам понравилось расширение?",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "Нравится Базовая Громкость? Поддержите нас, оставив 5-звёздочный отзыв и поделившись с друзьями!",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "Выбрать язык",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "Язык браузера",  
+    "description": "The default language"  
+  }  
+}  
