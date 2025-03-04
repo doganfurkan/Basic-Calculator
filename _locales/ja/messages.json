@@ -1,0 +1,54 @@
+{  
+  "extensionName": {  
+    "message": "基本計算機",  
+    "description": "The name of the extension"  
+  },  
+  "extensionDescription": {  
+    "message": "基本計算機は、簡単な計算を迅速に行うための便利な拡張機能です。",  
+    "description": "The description of the extension"  
+  },    
+  "about": {  
+    "message": "概要",  
+    "description": "The about message"  
+  },  
+  "faqQuestion1": {  
+    "message": "近道",  
+    "description": "The first question of the FAQ"  
+  },  
+  "faqAnswer1": {  
+    "message": "次のショートカットを使用できます:\n - Enter: 結果を計算\n - Del, Delete: 入力をクリア\n - Backspace: 最後の文字を削除\n - 数字 0-9: 数字を入力\n - 演算子 +, -, *, /: 演算子を入力\n - '.' または ',': 小数点を入力",  
+    "description": "The answer of the first question of the FAQ"  
+  },  
+  "faqQuestion2": {  
+    "message": "提案やバグの報告がありますか？",  
+    "description": "The second question of the FAQ"  
+  },  
+  "faqAnswer2": {  
+    "message": "問題を報告したり、改善提案をするにはこちらをご利用ください:",  
+    "description": "The answer of the second question of the FAQ"  
+  },  
+  "faqQuestion3": {  
+    "message": "開発者に連絡したいですか？",  
+    "description": "The third question of the FAQ"  
+  },  
+  "faqAnswer3": {  
+    "message": "以下のメールアドレスで開発者に連絡できます:",  
+    "description": "The answer of the third question of the FAQ"  
+  },  
+  "faqQuestion4": {  
+    "message": "この拡張機能は気に入りましたか？",  
+    "description": "The fourth question of the FAQ"  
+  },  
+  "faqAnswer4": {  
+    "message": "ベーシックボリュームを楽しんでいますか？ 5つ星のレビューを投稿し、友達と共有してサポートしてください！",  
+    "description": "The answer of the fourth question of the FAQ"  
+  },  
+  "languageSelect": {  
+    "message": "言語を選択",  
+    "description": "The select language input"  
+  },  
+  "defaultLanguage": {  
+    "message": "ブラウザーの言語",  
+    "description": "The default language"  
+  }  
+}  
