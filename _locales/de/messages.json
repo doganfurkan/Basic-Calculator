@@ -16,7 +16,7 @@
     "description": "The first question of the FAQ"  
   },  
   "faqAnswer1": {  
-    "message": "Du kannst die folgenden Abkürzungen verwenden: \n - Enter: Berechne das Ergebnis \n - C: Lösche die Eingabe \n - Backspace: Lösche das letzte Zeichen \n - Zahlen 0-9: Gib die Zahl ein \n - Operatoren +, -, *, /: Gib den Operator ein \n - '.' oder ',': Gib den Dezimalpunkt ein",  
+    "message": "Du kannst die folgenden Abkürzungen verwenden: \n - Enter: Berechne das Ergebnis \n - Entf, Del: Lösche die Eingabe \n - Backspace: Lösche das letzte Zeichen \n - Zahlen 0-9: Gib die Zahl ein \n - Operatoren +, -, *, /: Gib den Operator ein \n - '.' oder ',': Gib den Dezimalpunkt ein",  
     "description": "The answer of the first question of the FAQ"  
   },  
   "faqQuestion2": {  

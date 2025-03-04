@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       calculate();
     } else if (key === "Backspace") {
       inputField.value = inputField.value.slice(0, -1);
-    } else if (key === "c" || key === "C") {
+    } else if (event.code === "Delete") {
       clearInput();
     }
     ifEmpty();

@@ -16,7 +16,7 @@
     "description": "The first question of the FAQ"  
   },  
   "faqAnswer1": {  
-    "message": "Puedes usar los siguientes atajos: \n - Enter: Calcular el resultado \n - C: Borrar la entrada \n - Retroceso: Eliminar el último carácter \n - Números 0-9: Ingresar el número \n - Operadores +, -, *, /: Ingresar el operador \n - '.' o ',': Ingresar el punto decimal",  
+    "message": "Puedes usar los siguientes atajos: \n - Enter: Calcular el resultado \n - Supr, Del: Borrar la entrada \n - Retroceso: Eliminar el último carácter \n - Números 0-9: Ingresar el número \n - Operadores +, -, *, /: Ingresar el operador \n - '.' o ',': Ingresar el punto decimal",  
     "description": "The answer of the first question of the FAQ"  
   },  
   "faqQuestion2": {  

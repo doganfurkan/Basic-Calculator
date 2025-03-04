@@ -16,7 +16,7 @@
     "description": "The first question of the FAQ"
   },
   "faqAnswer1": {
-    "message": "Aşağıdaki kısayolları kullanabilirsiniz: \n - Enter: Sonucu hesapla \n - C: Temizle \n - Backspace: Son karakteri sil \n - Sayılar 0-9: Sayıyı girin \n - Operatörler +, -, *, /: Operatörü girin \n - '.' veya ',': Ondalık noktayı girin",
+    "message": "Aşağıdaki kısayolları kullanabilirsiniz: \n - Enter: Sonucu hesapla \n - Delete: İşlemi Temizle \n - Backspace: Son karakteri sil \n - Sayılar 0-9: Sayıyı girin \n - Operatörler +, -, *, /: Operatörü girin \n - '.' veya ',': Ondalık noktayı girin",
     "description": "The answer of the first question of the FAQ"
   },
   "faqQuestion2": {

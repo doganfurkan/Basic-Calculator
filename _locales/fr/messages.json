@@ -16,7 +16,7 @@
     "description": "The first question of the FAQ"  
   },  
   "faqAnswer1": {  
-    "message": "Vous pouvez utiliser les raccourcis suivants : \n - Entrée : Calculer le résultat \n - C : Effacer l'entrée \n - Retour arrière : Supprimer le dernier caractère \n - Chiffres 0-9 : Entrer le chiffre \n - Opérateurs +, -, *, / : Entrer l'opérateur \n - '.' ou ',': Entrer le point décimal",  
+    "message": "Vous pouvez utiliser les raccourcis suivants : \n - Entrée : Calculer le résultat \n - Suppr, Del : Effacer l'entrée \n - Retour arrière : Supprimer le dernier caractère \n - Chiffres 0-9 : Entrer le chiffre \n - Opérateurs +, -, *, / : Entrer l'opérateur \n - '.' ou ',': Entrer le point décimal",  
     "description": "The answer of the first question of the FAQ"  
   },  
   "faqQuestion2": {  

@@ -16,7 +16,7 @@
     "description": "The first question of the FAQ"
   },
   "faqAnswer1": {
-    "message": "You can use the following shortcuts: \n - Enter: Calculate the result \n - C: Clear the input \n - Backspace: Delete the last character \n - Numbers 0-9: Enter the number \n - Operators +, -, *, /: Enter the operator \n - '.' or ',': Enter the decimal point",
+    "message": "You can use the following shortcuts: \n - Enter: Calculate the result \n - Del, Delete: Clear the input \n - Backspace: Delete the last character \n - Numbers 0-9: Enter the number \n - Operators +, -, *, /: Enter the operator \n - '.' or ',': Enter the decimal point",
     "description": "The answer of the first question of the FAQ"
   },
   "faqQuestion2": {
