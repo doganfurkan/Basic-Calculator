@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "Basic Calculator",
+    "description": "The name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Basic Calculator is a simple calculator extension for your browser",
+    "description": "The description of the extension"
+  },
+  "about": {
+    "message": "About",
+    "description": "The about message"
+  },
+  "faqQuestion1": {
+    "message": "Shortcuts",
+    "description": "The first question of the FAQ"
+  },
+  "faqAnswer1": {
+    "message": "You can use the following shortcuts: \n - Enter: Calculate the result \n - C: Clear the input \n - Backspace: Delete the last character \n - Numbers 0-9: Enter the number \n - Operators +, -, *, /: Enter the operator \n - '.' or ',': Enter the decimal point",
+    "description": "The answer of the first question of the FAQ"
+  },
+  "faqQuestion2": {
+    "message": "Have a suggestion or found a bug?",
+    "description": "The second question of the FAQ"
+  },
+  "faqAnswer2": {
+    "message": "Report issues and suggest improvements here:",
+    "description": "The answer of the second question of the FAQ"
+  },
+  "faqQuestion3": {
+    "message": "Do you want to reach the developer?",
+    "description": "The third question of the FAQ"
+  },
+  "faqAnswer3": {
+    "message": "You can reach the developer at the following email address:",
+    "description": "The answer of the third question of the FAQ"
+  },
+  "faqQuestion4": {
+    "message": "Did you like the extension?",
+    "description": "The fourth question of the FAQ"
+  },
+  "faqAnswer4": {
+    "message": "Enjoying Basic Volume? Support us by giving a 5-star review and sharing with friends!",
+    "description": "The answer of the fourth question of the FAQ"
+  },
+  "languageSelect": {
+    "message": "Select Language",
+    "description": "The select language input"
+  },
+  "defaultLanguage": {
+    "message": "Browser Language",
+    "description": "The default language"
+  }
+}
