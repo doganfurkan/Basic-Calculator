@@ -1,43 +1,203 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url("fonts/DMSans.ttf") format("truetype");
+}
+
+:root {
+  --bg: #fff;
+  --bgSubtle: hsl(197, 50%, 95%);
+  --borderColor: #e0e0e0;
+  --btn: hsl(197, 70%, 95%);
+  --primary: #00aff5;
+  --textClr: #020202;
+  --value: 16.67%;
+  --rangeBg: #ccc;
+  --backspace:hsl(0, 100%, 75%);
+  --reset: hsl(0, 100%, 75%);
+  --operators:#00aff5;
+}
+
+body.dark {
+  --bg: #001219;
+  --bgSubtle: hsl(197, 100%, 8%);
+  --btn:hsl(197, 100%, 10%);
+  --borderColor: #003a52;
+  --textClr: #f4f4f4;
+  --rangeBg: #999;
+  --backspace: hsl(0,100%,50%);
+  --reset: hsl(0,100%,15%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: DM Sans, sans-serif;
+  background: transparent;
+  border: 0;
+}
+
+html {
+  width: 400px;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    width: 220px;
-}
-
-input {
-    width: 95%;
-    padding: 10px;
-    margin: 10px 10px 5px;
-    font-size: 18px;
-    text-align: right;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    padding: 10px;
+  background: var(--bg);
+  color: var(--textClr);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 400px;
 }
 
 button {
-    padding: 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    background: #f1f1f1;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  display: flex;
+  background: transparent;
+  border: 0;
 }
 
-button:hover {
-    background: #ddd;
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
 }
 
-#btn-equal {
-    grid-column: span 4;
-    background-color: #28a745;
-    color: white;
+.mainHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  justify-content: space-between;
 }
 
-#btn-clear {
-    background-color: #dc3545;
-    color: white;
+.mainHeader h1 {
+  font-size: 2em;
+  margin: 0.625em 0;
+  font-weight: 200;
+  line-height: 1.75rem;
+}
+
+header > nav {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 5px 0;
+}
+
+header > nav > button,
+header > nav > a {
+  padding: 12px;
+  background: transparent;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: grid;
+  place-content: center;
+}
+
+header > nav > button:hover,
+header > nav > a:hover {
+  background: var(--bgSubtle);
+}
+
+.mainHeader > nav > button img,
+.mainHeader > nav > a img {
+  width: 24px;
+}
+
+body.dark .mainHeader > nav > button > img,
+body.dark .mainHeader > nav > a > img {
+  filter: invert(100%);
+}
+
+main{
+  display: grid;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap: wrap;
+  gap:8px;
+  background: var(--bgSubtle);
+  padding:12px;
+}
+
+.btn,
+#btn-equal,
+.btn-operator,
+#btn-backspace,
+#btn-clear{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:12px;
+  font-size:1.5rem;
+  min-width: calc((100% - 24px) / 4);
+  flex: 1 0 0;
+  font-weight: 600;
+  aspect-ratio: 1;
+  border-radius: 12px;
+}
+
+/*
+.btn{
+  background: var(--btn);
+}
+
+.btn-operator{
+  background: var(--bgSubtle);
+}
+*/
+
+#btn-equal{
+  background: var(--primary);
+  color:#fff;
+}
+
+#btn-clear{
+  font-size:1rem;
+  color:var(--backspace);
+}
+
+#btn-clear img{
+  width: 24px;
+  filter: invert(100%)
+}
+
+input#expression{
+  width:100%;
+  padding:24px 16px;
+  font-size:36px;
+  font-weight: 700;
+  text-align: right;
+}
+
+#btn-backspace{
+  color: var(--backspace);
+}
+
+#btn-backspace img{
+  width: 24px;
+}
+
+.dark #btn-backspace img{
+  filter: invert(100%)
+}
+
+.btn-operator,
+#btn-equal{
+  font-size:1.5rem;
+}
+
+.btn-operator{
+  color: var(--operators)
 }
