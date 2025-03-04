@@ -89,3 +89,25 @@ function ifEmpty() {
     inputField.value = "0";
   }
 }
+
+document.querySelector(".buttons").addEventListener("mousemove", (e) => {
+  const element = e.currentTarget.getBoundingClientRect();
+  const top = element.top;
+  document.querySelector(".buttons").style.backgroundImage = `radial-gradient(circle at ${e.clientX}px ${e.clientY - top}px, #00aff577 0, transparent 48px)`;
+})
+
+document.querySelector(".buttons").addEventListener("mouseleave", (e) => {
+  document.querySelector(".buttons").style.backgroundImage = `none`;
+})
+
+document.querySelectorAll(".buttons button").forEach((button) => {
+  button.addEventListener("mouseleave", (e) => {
+    e.target.style.borderImage = "none";
+  })
+  button.addEventListener("mousemove", (e) => {
+    const rect = e.target.getBoundingClientRect();
+    const x = e.clientX - rect.left; //x position within the element.
+    const y = e.clientY - rect.top; //y position within the element.
+    e.target.style.borderImage = `radial-gradient(50% 75% at ${x}px ${y}px , var(--primary),transparent ) 1 / 2px / 0px stretch `;
+  })
+})

@@ -126,8 +126,8 @@ main{
 .buttons{
   display:flex;
   flex-wrap: wrap;
-  gap:8px;
-  background: var(--bgSubtle);
+  gap:2px;
+  background-color: var(--bgSubtle);
   padding:12px;
 }
 
@@ -145,7 +145,7 @@ main{
   flex: 1 0 0;
   font-weight: 600;
   aspect-ratio: 1;
-  border-radius: 12px;
+  backdrop-filter: blur(12px);
 }
 
 /*
