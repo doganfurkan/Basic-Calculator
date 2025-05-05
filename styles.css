@@ -41,7 +41,7 @@ body.dark {
 }
 
 html {
-  width: 400px;
+  min-width: 400px;
 }
 
 body {
@@ -50,7 +50,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  width: 400px;
+  min-width: 400px;
 }
 
 button {
